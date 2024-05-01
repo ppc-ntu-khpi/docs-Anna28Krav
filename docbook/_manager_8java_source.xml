@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__manager_8java_source" xml:lang="en-US">
+<title>Manager.java</title>
+<indexterm><primary>src/domain/Manager.java</primary></indexterm>
+Go to the documentation of this file.<programlisting linenumbering="unnumbered"><anchor xml:id="__manager_8java_source_1l00001"/>00001 <emphasis role="keyword">package&#32;</emphasis>domain;
+<anchor xml:id="__manager_8java_source_1l00002"/>00002 
+<anchor xml:id="__manager_8java_source_1l00006"/><link linkend="_classdomain_1_1_manager">00006</link> <emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">class&#32;</emphasis><link linkend="_classdomain_1_1_manager">Manager</link>&#32;<emphasis role="keyword">extends</emphasis>&#32;<link linkend="_classdomain_1_1_employee">Employee</link>&#32;{
+<anchor xml:id="__manager_8java_source_1l00007"/>00007 
+<anchor xml:id="__manager_8java_source_1l00017"/><link linkend="_classdomain_1_1_manager_1ac1a78da00928318e18534493c97d62b3">00017</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<link linkend="_classdomain_1_1_manager_1ac1a78da00928318e18534493c97d62b3">Manager</link>(<link linkend="_classdomain_1_1_employee">Employee</link>[]&#32;employees,&#32;String&#32;name,&#32;String&#32;jobTitle,&#32;<emphasis role="keywordtype">int</emphasis>&#32;level,&#32;String&#32;dept)&#32;{
+<anchor xml:id="__manager_8java_source_1l00018"/>00018 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;super(name,&#32;jobTitle,&#32;level,&#32;dept);
+<anchor xml:id="__manager_8java_source_1l00019"/>00019 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.employees&#32;=&#32;employees;
+<anchor xml:id="__manager_8java_source_1l00020"/>00020 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__manager_8java_source_1l00021"/>00021 
+<anchor xml:id="__manager_8java_source_1l00027"/>00027 &#32;&#32;&#32;&#32;@Override
+<anchor xml:id="__manager_8java_source_1l00028"/><link linkend="_classdomain_1_1_manager_1afcce98dc9e2c140c4cd16f4a7d437a8c">00028</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;String&#32;<link linkend="_classdomain_1_1_manager_1afcce98dc9e2c140c4cd16f4a7d437a8c">toString</link>()&#32;{
+<anchor xml:id="__manager_8java_source_1l00029"/>00029 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;super.toString()+<emphasis role="stringliteral">&quot;\nEmployees:&#32;&quot;</emphasis>+<link linkend="_classdomain_1_1_manager_1a1ac9a52155f131ecaf6e0c48184290e2">getEmployees</link>();&#32;
+<anchor xml:id="__manager_8java_source_1l00030"/>00030 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__manager_8java_source_1l00031"/>00031 
+<anchor xml:id="__manager_8java_source_1l00037"/><link linkend="_classdomain_1_1_manager_1a3497da82db5f6d11f0faf36c6c6e400a">00037</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<link linkend="_classdomain_1_1_manager_1a3497da82db5f6d11f0faf36c6c6e400a">Manager</link>(<link linkend="_classdomain_1_1_employee">Employee</link>[]&#32;employees)&#32;{
+<anchor xml:id="__manager_8java_source_1l00038"/>00038 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;super();
+<anchor xml:id="__manager_8java_source_1l00039"/>00039 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.employees&#32;=&#32;employees;
+<anchor xml:id="__manager_8java_source_1l00040"/>00040 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__manager_8java_source_1l00041"/>00041 
+<anchor xml:id="__manager_8java_source_1l00045"/><link linkend="_classdomain_1_1_manager_1aa597af4e9a9950e9c0b9ceb64f893832">00045</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<link linkend="_classdomain_1_1_manager_1aa597af4e9a9950e9c0b9ceb64f893832">Manager</link>()&#32;{
+<anchor xml:id="__manager_8java_source_1l00046"/>00046 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;super();
+<anchor xml:id="__manager_8java_source_1l00047"/>00047 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;employees&#32;=&#32;<emphasis role="keyword">new</emphasis>&#32;<link linkend="_classdomain_1_1_employee">Employee</link>[10];
+<anchor xml:id="__manager_8java_source_1l00048"/>00048 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__manager_8java_source_1l00049"/>00049 
+<anchor xml:id="__manager_8java_source_1l00050"/>00050 &#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<link linkend="_classdomain_1_1_employee">Employee</link>[]&#32;employees;
+<anchor xml:id="__manager_8java_source_1l00051"/>00051 
+<anchor xml:id="__manager_8java_source_1l00057"/><link linkend="_classdomain_1_1_manager_1a1ac9a52155f131ecaf6e0c48184290e2">00057</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;String&#32;<link linkend="_classdomain_1_1_manager_1a1ac9a52155f131ecaf6e0c48184290e2">getEmployees</link>()&#32;{
+<anchor xml:id="__manager_8java_source_1l00058"/>00058 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;String&#32;s&#32;=&#32;<emphasis role="stringliteral">&quot;&quot;</emphasis>;
+<anchor xml:id="__manager_8java_source_1l00059"/>00059 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">for</emphasis>&#32;(<link linkend="_classdomain_1_1_employee">Employee</link>&#32;e&#32;:&#32;employees)&#32;{
+<anchor xml:id="__manager_8java_source_1l00060"/>00060 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;s&#32;=&#32;s&#32;+&#32;e.getName()&#32;+&#32;<emphasis role="stringliteral">&quot;,&#32;&quot;</emphasis>;
+<anchor xml:id="__manager_8java_source_1l00061"/>00061 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__manager_8java_source_1l00062"/>00062 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;s=s.substring(0,&#32;s.length()&#32;-&#32;2);
+<anchor xml:id="__manager_8java_source_1l00063"/>00063 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;s;
+<anchor xml:id="__manager_8java_source_1l00064"/>00064 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__manager_8java_source_1l00065"/>00065 
+<anchor xml:id="__manager_8java_source_1l00071"/><link linkend="_classdomain_1_1_manager_1a91c4a87740c439452ddb235ae53bff9d">00071</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classdomain_1_1_manager_1a91c4a87740c439452ddb235ae53bff9d">setEmployees</link>(<link linkend="_classdomain_1_1_employee">Employee</link>[]&#32;employees)&#32;{
+<anchor xml:id="__manager_8java_source_1l00072"/>00072 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.employees=employees;
+<anchor xml:id="__manager_8java_source_1l00073"/>00073 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__manager_8java_source_1l00074"/>00074 
+<anchor xml:id="__manager_8java_source_1l00080"/><link linkend="_classdomain_1_1_manager_1ada1c4b1947ce477a4eb84a80927cf463">00080</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<link linkend="_classdomain_1_1_employee">Employee</link>[]&#32;<link linkend="_classdomain_1_1_manager_1ada1c4b1947ce477a4eb84a80927cf463">getEmployeesList</link>()&#32;{
+<anchor xml:id="__manager_8java_source_1l00081"/>00081 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;employees;
+<anchor xml:id="__manager_8java_source_1l00082"/>00082 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__manager_8java_source_1l00083"/>00083 
+<anchor xml:id="__manager_8java_source_1l00084"/>00084 }
+</programlisting></section>

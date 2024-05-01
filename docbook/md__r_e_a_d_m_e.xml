@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_md__r_e_a_d_m_e" xml:lang="en-US">
+<title>Практична робота &quot;Документування JAVA-програм&quot;</title>
+<indexterm><primary>Практична робота &quot;Документування JAVA-програм&quot;</primary></indexterm>
+
+<para><anchor xml:id="_md__r_e_a_d_m_e_1autotoc_md0"/>Цей репозиторій містить стартовий код для виконання практичної роботи, який містить кілька класів, які моделюють структуру невеличкої компанії.  </para>
+<section xml:id="_md__r_e_a_d_m_e_1autotoc_md1">
+<title><title>В рамках практичної роботи ви маєте зробити наступне:</title></title>
+
+<para><orderedlist>
+<listitem>
+<para>додати javadoc-коментарі до всіх класів пакету <emphasis>domain</emphasis></para>
+</listitem><listitem>
+<para>згенерувати HTML-документацію (у відеолекції було показано як це зробити з допомогою NetBeans, проте ви можете скористатись будь-якою оболонкою для javadoc)</para>
+</listitem><listitem>
+<para>завантажити її до теки <emphasis role="bold">docs</emphasis> вашого репозиторію. При цьому в налаштуваннях репозиторію (вкладка <emphasis>Settings</emphasis> - з шестернею) мають бути увімкнені GitHub Pages для теки <emphasis>docs</emphasis>. Результатом буде наступне: </para>
+</listitem><listitem>
+<para>здати завдання. <emphasis role="bold">УВАГА! Не забудьте, здаючи завдання через Google Classroom, вказати посилання на опубліковану вами документацію проекту (посилання на зеленому фоні у розділі GitHub Pages налаштувань Вашого репозиторію!</emphasis> </para>
+</listitem></orderedlist>
+</para>
+</section>
+</section>
